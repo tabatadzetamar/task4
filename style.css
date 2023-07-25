@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@font-face {
+    font-family: ALK Life;
+    src: url(alk_life.otf);
+}
+@font-face {
+    font-family: DejaVu Sans;
+    src: url(bpg_dejavu_sans.otf);
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 200px;
+    background-color: #D9D9D9;
+}
+header img {
+    margin-left: 130px;
+}
+header ul {
+    display: flex;
+    font-family: ALK Life;
+    font-size: 24px;
+    font-weight: 400;
+}
+header nav {
+    margin-right: 130px;
+}
+header .link {
+    color: #717276;
+}
+header .active-link {
+    color: #A62B28;
+    margin-right: 38px;
+}
+header .middle-link {
+    margin: 0 38px;
+}
+header .link1 {
+    margin-left: 38px;
+}
+ .beckground {
+    margin: 160px 130px;
+} 
+.section1 {
+    margin:0 130px 160px 130px;
+    width: 1180px;
+    height: 856px;
+}
+.section1 .section-header {
+    display: flex;
+    align-items: center;  
+    width: 533px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+.section-header ul {
+    display: flex;
+font-family: DejaVu Sans;
+font-size: 32px;
+font-weight: 700;
+color: #717276;
+margin-left: 40px;
+}
+.book {
+    display: flex;
+    justify-content: space-between;
+}
+.writer {
+    font-family: DejaVu Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #717276;
+    margin-top: 50px;
+}
+.book1 {
+    font-family: ALK Life;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+    margin: 8px 0;
+}
+.Price {
+    font-family: bDejaVu Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    color: #000000;
+}
+.section2 {
+    margin:0 130px 160px 130px;
+    width: 1180px;
+    height: 400px;
+}
+.section2 .section-header2 {
+    display: flex;
+    align-items: center;  
+    width: 432px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+.section-header2 ul {
+    display: flex;
+font-family: DejaVu Sans;
+font-size: 32px;
+font-weight: 700;
+color: #717276;
+margin-left: 40px;
+}
+.writers {
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+height: 248px;
+padding: 71px 130px 71px 130px;
+background-color: #D9D9D9;
+}
+footer nav {
+    width: 174px;
+height: 106px;
+/* margin-left: 130px; */
+}
+footer .link {
+    font-family: ALK Life;
+font-size: 24px;
+font-weight: 400;
+text-align: left;
+    color:  #000000;
+}
+footer .middle-link {
+    margin: 8px 0;
+}
+div .social-icons {
+    display: flex;
+    width: 183px;
+    height: 30px;
+}
+footer .social-icons ul {
+    display: flex;
+}
+footer .middle-icon{
+   margin: 0 21px;
+}
+footer .middle-icon2{
+    margin-right:21px;
+ }
+/* footer .social-icons li{
+    display: flex;
+    justify-content: space-between;
+} */
